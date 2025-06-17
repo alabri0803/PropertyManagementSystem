@@ -1,0 +1,12 @@
+{% extends "core/base.html" %}
+{% load i18n %}
+{% block title %}{{ property.title }}{% endblock %}
+{% block content %}
+<h2>{{ property.title }}</h2>
+<p>{{ property.description }}</p>
+<p>{% trans "City" %}: {{ property.city }}</p>
+<p>{% trans "Address" %}: {{ property.address }}</p>
+<p>{% trans "Type" %}: {{ property.property_type }}</p>
+<p>{% trans "Status" %}: {{ property.property_status }}</p>
+<p>{% trans "Price" %}: {{ property.price }}</p>
+{% endblock %}

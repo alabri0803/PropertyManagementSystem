@@ -1,0 +1,35 @@
+{% extends "core/base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Properties" %}{% endblock %}
+{% block content %}
+<h2>{% trans "Available Properties" %}</h2>
+<form method="post">
+  <input type="text" name="q" placeholder="{% trans 'Search...' %}">
+  <input type="text" name="city" placeholder="{% trans 'City...' %}">
+  <select name="type">
+    <option value="">{% trans 'All Types' %}</option>
+    <option value="apartment">{% trans "Apartment" %}</option>
+    <option value="house">{% trans "House" %}</option>
+    <option value="villa">{% trans "villa" %}</option>
+    <option value="land">{% trans "Land" %}</option>
+  </select>
+  <select name="status">
+    <option value="">{% trans 'All Statuses' %}</option>
+    <option value="available">{% trans "Available" %}</option>
+    <option value="sold">{% trans "Sold" %}</option>
+    <option value="rented">{% trans "Rented" %}</option>
+  </select>
+  <button type="submit">{% trans "Filter" %}</button>
+</form>
+<ul>
+  {% for property in properties %}
+    <li>
+      <a href="{% url 'property_detail' property.pk %}">
+        {{ property.title }} - {{ property.city }} - {{ property.price }}
+      </a>
+    </li>
+  {% empty %}
+    <li>{% trans "No properties found." %}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-17 14:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: PropertyManagementSystem/settings.py:112
+msgid "Arabic"
+msgstr ""
+
+#: PropertyManagementSystem/settings.py:113
+msgid "English"
+msgstr ""
+
+#: accounts/templates/accounts/login.html:3
+#: accounts/templates/accounts/login.html:5
+#: accounts/templates/accounts/login.html:9 core/templates/core/base.html:14
+#: core/templates/core/registration/login.html:3
+#: core/templates/core/registration/login.html:5
+#: core/templates/core/registration/login.html:9
+msgid "Login"
+msgstr ""
+
+#: accounts/templates/accounts/register.html:3
+#: accounts/templates/accounts/register.html:5
+#: accounts/templates/accounts/register.html:9
+msgid "Register"
+msgstr ""
+
+#: core/templates/core/base.html:6
+msgid "Property Management System"
+msgstr ""
+
+#: core/templates/core/base.html:10
+msgid "Home"
+msgstr ""
+
+#: core/templates/core/base.html:12
+msgid "Logout"
+msgstr ""
+
+#: core/templates/core/home.html:3 core/views.py:7
+msgid "Home Page"
+msgstr ""
+
+#: core/templates/core/home.html:5
+msgid "Welcome to the Property Management System"
+msgstr ""
+
+#: properties/models.py:7 properties/templates/properties/property_list.html:11
+msgid "Apartment"
+msgstr ""
+
+#: properties/models.py:8 properties/templates/properties/property_list.html:12
+msgid "House"
+msgstr ""
+
+#: properties/models.py:9
+msgid "Villa"
+msgstr ""
+
+#: properties/models.py:10
+#: properties/templates/properties/property_list.html:14
+msgid "Land"
+msgstr ""
+
+#: properties/models.py:13
+#: properties/templates/properties/property_list.html:18
+msgid "Available"
+msgstr ""
+
+#: properties/models.py:14
+#: properties/templates/properties/property_list.html:19
+msgid "Sold"
+msgstr ""
+
+#: properties/models.py:15
+#: properties/templates/properties/property_list.html:20
+msgid "Rented"
+msgstr ""
+
+#: properties/templates/properties/property_detail.html:7
+msgid "City"
+msgstr ""
+
+#: properties/templates/properties/property_detail.html:8
+msgid "Address"
+msgstr ""
+
+#: properties/templates/properties/property_detail.html:9
+msgid "Type"
+msgstr ""
+
+#: properties/templates/properties/property_detail.html:10
+msgid "Status"
+msgstr ""
+
+#: properties/templates/properties/property_detail.html:11
+msgid "Price"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:3
+msgid "Properties"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:5
+msgid "Available Properties"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:7
+msgid "Search..."
+msgstr ""
+
+#: properties/templates/properties/property_list.html:8
+msgid "City..."
+msgstr ""
+
+#: properties/templates/properties/property_list.html:10
+msgid "All Types"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:13
+msgid "villa"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:17
+msgid "All Statuses"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:22
+msgid "Filter"
+msgstr ""
+
+#: properties/templates/properties/property_list.html:32
+msgid "No properties found."
+msgstr ""
